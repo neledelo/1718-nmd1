@@ -1,14 +1,223 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-   
-    <h1> Hello World</h1>
 
+
+<!-- 
+    Overoop altijd eerst de andere css-bestanden, zadt je de juiste benamingen voor de voorgekauwde classes gebruikt zoals in het grid
+-->
+
+<!-- 
+    Tip-1
+    Start met het Grid
+    denk aan het ezelsbrugje "COROCO & Zonen": 
+    Voeg deze class-benaming eerst toe aan de juiste div's. De lay-outstructuur zal dan al zo goed als juist staan.
+    - Dan pas de divs die voor de finale styling zorgen
+-->
+
+<!-- 
+    Tip-2
+    Om snel overzicht te hebben over de structuur: 
+    klap eerst alle divs dicht. vul de classes aan. Open daarna na telkens volgens hun verwantschap.
+    Open en dichtklappen doe je door op het kleine plus- of minteken te klikken aan het begin van een coderij.
+-->
+
+
+
+<html lang="nl-be" dir="ltr" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!-- 
+VUL IN VOORNAAM NAAM IN HET TITLE-ELEMENT
+-->  
+  <title>Portfolio Nele Delobelle</title>
+	
+  <meta name="description" content="We educate future talents in Design for Print and Non-Print, Web- and App Development, Audio and Video Production, 2D- 3D Animations, Printing and Packaging and the whole Management of those Workflows.">
+  <meta name="description" content="HTML5, CSS3, JavaScript, Sass, Handlebars, Gulp, Babel">
+  <meta name="author" content="Artevelde University College Ghent - Bachelor in the Graphical and Digital Media | New Media Development">
+  <meta name="copyright" content="Copyright 2010-17 Artevelde University College Ghent. All Rights Reserved.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content=">Web Technology I | New Media Development | Artevelde University College Ghent">
+  <meta property="og:description" content="We educate future talents in Design for Print and Non-Print, Web- and App Development, Audio and Video Production, 2D- 3D Animations, Printing and Packaging and the whole Management of those Workflows.">
+  <meta property="og:url" content="http://www.gdm.gent/">
+  <meta property="og:site_name" content="Mobile Development I">
+  <meta property="og:image" content="assets/images/ahs.png">
+  <meta property="og:image:width" content="129">
+  <meta property="og:image:height" content="129">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="assets/images/icons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="assets/images/icons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="assets/images/icons/manifest.json">
+  <link rel="mask-icon" href="assets/images/icons/safari-pinned-tab.svg" color="#ee9900">
+  <link rel="shortcut icon" href="assets/images/icons/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="GDM">
+  <meta name="application-name" content="GDM">
+  <meta name="msapplication-config" content="assets/images/icons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="author" type="text/plain" href="/humans.txt">
+
+  <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+  <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  
+  <!-- te raadplegen css-bestanden -->
+  <link rel="stylesheet" media="all" href="assets/css/variables.css">
+  <link rel="stylesheet" media="all" href="assets/css/fonts.css">
+  <link rel="stylesheet" media="all" href="assets/css/typography.css">
+  <link rel="stylesheet" media="all" href="assets/css/grid.css">
+
+<!-- 
+enige css-bestand waarin je zelf schrijft 
+-->
+  <link rel="stylesheet" media="all" href="assets/css/components.css">
+
+</head>
+
+
+<body>
+<div class="grid__container nav_container">
+    <div class="grid__row">
+        <div class="grid__column-12 grid__column-sm-9">
+            <h1>Portfolio Nele Delobelle</h1>
+            <p> Ik ben Nele Delobelle en ik ben een creatief en sociaal ingestelde studente die in Roeselare woont, maar je zal me meestal terugvinden in Gent. Ik heb vorig jaar mijn diploma communicatiemanagement behaald aan de Arteveldehogeschool in Gent. Momenteel studeer ik grafische en digitale media met als afstudeerrichting crossmediaontwerp. Ik heb gekozen voor deze richting omdat ik merkte hoe belangrijk de kennis van het grafische geworden is binnen de communicatieve sector. Tijdens mijn stage heb ik ook mijn passie voor grafische vormgeving ontdekt. Ik hoop alvast om na mijn studies als freelance grafisch ontwerper aan de slag te gaan in combinatie met mijn communicatieskills. </p>
+        </div>
+
+        <div class="grid__column-12 grid__column-sm-3">
+                <div class="aside">
+                    <h2>Gegevens</h2>
+                    <ul id="gegevens">
+                            <li class="gegevens_item">
+                              Naam: Nele Delobelle
+                            </li>
+                            <li class="gegevens_item">
+                              Leeftijd: 22 jaar
+                            </li>
+                            <li class="gegevens_item">
+                              Woonplaats: 9000 GENT - 8800 ROESELARE
+                            </li>
+                            <li class="gegevens_item">
+                              E-mail: nele_delobelle@hotmail.com
+                            </li>
+                            <li class="gegevens_item">
+                              GSM: 0476.83 90 61
+                            </li>
+                            <li class="gegevens_item">
+                            Rijbewijs: B
+                            </li>
+                          
+                        </ul>
+                </div>
+        
+    </div>
+</div>
+
+
+
+  
+
+<div class="grid__container nav_container">
+    <!-- cards-->
+    <div class="grid__row">
+      <!-- card 1 -->
+      <div class="grid__column-12 grid__column-sm-3">
+          <div class="card">
+              <div class="card_image_container">
+                  <img src="assets/images/texel.jpg" alt="samwood">
+              </div>
+            
+              <div class="card_txt_container">
+                  <h3>TEXEL VORMGEVING: Eindopdracht Grafische Vormgeving Semester 1</h3>
+                  <p>Ontwikkel een nieuwe huisstijl en campagne voor een welbepaalde regio/land/streek. Ontwerp een logo, een campagnebeeld + affiche, folder en advertentiebeeld.</p>
+              </div>
+            
+          </div>
+      </div>
+      
+      <!-- card 2 -->
+      <div class="grid__column-12 grid__column-sm-3">
+          <div class="card">
+              <div class="card_image_container">
+                  <img src="assets/images/kapsalon chic.jpg" alt="...">
+              </div>
+         
+              <div class="card_txt_container">
+                <h3> LOGO KAPSALON CHIC: Redesign Logo Grafische Vormgeving Semester 1</h3>
+                  <p>Redesign een logo van een welbepaald bedrijf/winkel/keten.</p>
+              </div>
+            
+          </div>
+      </div>
+
+      <!-- card 3 -->
+      <div class="grid__column-12 grid__column-sm-3">
+          <div class="card">
+              <div class="card_image_container">
+                  <img src="assets/images/gedicht.jpg" alt="...">
+              </div>
+        
+              <div class="card_txt_container">
+                <h3>LETTERPOSTER GEDICHT: Letterposter gedicht Graphic Design Semester 2</h3>
+                  <p> Ontwerp een letterposter aan de hand van een gegeven gedicht. Maak hierbij enkel gebruik van fonts en kleur. Beperk je tot 2 steunkleuren.</p>
+              </div>
+              
+          </div>
+      </div>
+
+      <!-- card 4 -->
+      <div class="grid__column-12 grid__column-sm-3">
+          <div class="card">
+              <div class="card_image_container">
+                  <img src="assets/images/ar-architecten.jpg" alt="...">
+              </div>
+           
+              <div class="card_txt_container">
+                <h3>LOGO AR-ARCHITECTEN: Logo Extern AR-Architecten</h3>
+                  <p>Ontwerp een logo voor AR-Architecten bureau.</p>
+              </div>
+             
+          </div>
+      </div>
+
+     
+    </div> 
+
+    <!-- picture  -->
+
+</div>
+
+
+<div class="grid__container nav_container">
+
+    <div class="grid__column-12 grid">
+        <div class="card">
+            <div class="card_image_container">
+                    <img src="assets/images/bureau.jpg" alt="...">
+            </div>
+        
+        </div>
+    </div>
+
+</div>
+
+
+<!-- footer -->
+<div class="grid__container footer__container">
+        <div class="grid__row">
+            <div class="grid__column-12">
+                    <footer>Portfolio Nele Delobelle | New Media Design | Artevelde University College Ghent</footer>
+            </div>
+        </div>
+</div>
+
+  <script src="js/main.js"></script>
+
+
+
+
+
+  
 </body>
 </html>
